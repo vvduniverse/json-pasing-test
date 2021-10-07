@@ -8,18 +8,13 @@
 import Foundation
 
 struct Currencies: Codable {
-    let status: Status
     let data: [Datum]
 }
 
-struct Status: Codable {
-    let timestamp: String
-}
-
 struct Datum: Codable {
+    let symbol: String
     let name: String
     let quote: Quote
-    let symbol: String
 }
 
 struct Quote: Codable {
@@ -29,26 +24,3 @@ struct Quote: Codable {
 struct Usd: Codable {
     let price: Double
 }
-
-//struct Currencies: Codable {
-//    let status: Status
-//    let data: [Datum]
-//}
-//
-//struct Status: Codable {
-//    let timestamp: String
-//}
-//
-//struct Datum: Codable {
-//    let name: String
-//    let quote: Quote
-//    let symbol: String
-//}
-//
-//struct Quote: Codable {
-//    let USD: Usd
-//}
-//
-//struct Usd: Codable {
-//    let price: Double
-//}

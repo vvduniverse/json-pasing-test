@@ -42,9 +42,6 @@ extension ViewController {
                                                        from: jsonData)
             
             print("Cryptocurency name: ", decodedData.data)
-            print("Cryptocurency symblol: ", decodedData.data)
-            print("Cryptocurency price: ", decodedData.data)
-            print("===================================")
         } catch {
             print("decode error")
         }
