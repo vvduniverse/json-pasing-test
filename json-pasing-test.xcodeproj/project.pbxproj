@@ -13,6 +13,8 @@
 		A08C11C6270EF015007D737A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08C11C4270EF015007D737A /* Main.storyboard */; };
 		A08C11C8270EF016007D737A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08C11C7270EF016007D737A /* Assets.xcassets */; };
 		A08C11CB270EF016007D737A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08C11C9270EF016007D737A /* LaunchScreen.storyboard */; };
+		A08C11D3270EF1E7007D737A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C11D2270EF1E7007D737A /* Model.swift */; };
+		A08C11D5270EF5B5007D737A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A08C11D4270EF5B5007D737A /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A08C11C7270EF016007D737A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A08C11CA270EF016007D737A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A08C11CC270EF016007D737A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08C11D2270EF1E7007D737A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A08C11D4270EF5B5007D737A /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				A08C11BE270EF015007D737A /* AppDelegate.swift */,
 				A08C11C0270EF015007D737A /* SceneDelegate.swift */,
 				A08C11C2270EF015007D737A /* ViewController.swift */,
+				A08C11D2270EF1E7007D737A /* Model.swift */,
 				A08C11C4270EF015007D737A /* Main.storyboard */,
 				A08C11C7270EF016007D737A /* Assets.xcassets */,
 				A08C11C9270EF016007D737A /* LaunchScreen.storyboard */,
 				A08C11CC270EF016007D737A /* Info.plist */,
+				A08C11D4270EF5B5007D737A /* data.json */,
 			);
 			path = "json-pasing-test";
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 				A08C11CB270EF016007D737A /* LaunchScreen.storyboard in Resources */,
 				A08C11C8270EF016007D737A /* Assets.xcassets in Resources */,
 				A08C11C6270EF015007D737A /* Main.storyboard in Resources */,
+				A08C11D5270EF5B5007D737A /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 				A08C11C3270EF015007D737A /* ViewController.swift in Sources */,
 				A08C11BF270EF015007D737A /* AppDelegate.swift in Sources */,
 				A08C11C1270EF015007D737A /* SceneDelegate.swift in Sources */,
+				A08C11D3270EF1E7007D737A /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
