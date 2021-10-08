@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var currenciess: [AllCurrencies] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,17 +38,30 @@ extension ViewController {
         return nil
     }
     
+    
     private func parse(jsonData: Data) {
+
+
         do {
-            let decodedData = try JSONDecoder().decode(Currencies.self,
-                                                       from: jsonData)
+            let decodeData = try JSONDecoder().decode(Currencies.self, from: jsonData)
             
-            print("Cryptocurency name: ", decodedData.data)
+            for i in decodeData.data.indices {
+                let currency = AllCurrencies.init(name: decodeData.data[i].name,
+                                                  symbol: decodeData.data[i].symbol,
+                                                  price: decodeData.data[i].quote.usd.price,
+                                                  marketCap: decodeData.data[i].quote.usd.marketCap)
+                currenciess.append(currency)
+              
+                print(currenciess)
+            }
+
+
+
         } catch {
             print("decode error")
         }
+//        return currencies
     }
-    
     
     private func loadJson(fromURLString urlString: String,
                           completion: @escaping (Result<Data, Error>) -> Void) {

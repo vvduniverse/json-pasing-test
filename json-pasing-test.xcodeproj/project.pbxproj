@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A06A04B82710749C003B33F6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A04B72710749C003B33F6 /* TableViewController.swift */; };
 		A08C11BF270EF015007D737A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C11BE270EF015007D737A /* AppDelegate.swift */; };
 		A08C11C1270EF015007D737A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C11C0270EF015007D737A /* SceneDelegate.swift */; };
 		A08C11C3270EF015007D737A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08C11C2270EF015007D737A /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A06A04B72710749C003B33F6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		A08C11BB270EF015007D737A /* json-pasing-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "json-pasing-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08C11BE270EF015007D737A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A08C11C0270EF015007D737A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				A08C11BE270EF015007D737A /* AppDelegate.swift */,
 				A08C11C0270EF015007D737A /* SceneDelegate.swift */,
 				A08C11C2270EF015007D737A /* ViewController.swift */,
+				A06A04B72710749C003B33F6 /* TableViewController.swift */,
 				A08C11D2270EF1E7007D737A /* Model.swift */,
 				A08C11C4270EF015007D737A /* Main.storyboard */,
 				A08C11C7270EF016007D737A /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				A08C11C3270EF015007D737A /* ViewController.swift in Sources */,
 				A08C11BF270EF015007D737A /* AppDelegate.swift in Sources */,
 				A08C11C1270EF015007D737A /* SceneDelegate.swift in Sources */,
+				A06A04B82710749C003B33F6 /* TableViewController.swift in Sources */,
 				A08C11D3270EF1E7007D737A /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
